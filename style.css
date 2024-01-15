@@ -1,0 +1,38 @@
+body{
+    background-image: url(F1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+/* .search-center{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+video{
+    position: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+}
+.card-img {
+    width: 93px;
+    height: 93px;
+    object-fit: cover;
+}
+.meetinglabel {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+} */

@@ -1,0 +1,5 @@
+1. HIDE VIDEO PLAYER BEFORE SEARCH
+2. REPLACE VIDEO URL IN HTML WITH API URL
+3. HIDE SEARCH FIELD WHEN VIDEO PLAYER IS DISPLAYING
+
+4. Replace Cards with Driver Name and Race at the top of page and each audio recording in a list
