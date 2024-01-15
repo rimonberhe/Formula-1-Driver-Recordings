@@ -54,17 +54,7 @@ const loadTeams = () => {
       throw(error)});
         
         
-    
-    
 
-  
-
-//   userInput.value = '';
-//   url = `https://api.openf1.org/v1/team_radio?session_key=latest&driver_number=${userDriver}`
-//   fetch(url)
-//     .then(res => res.json())
-//     //.then(data => console.log(displayTeams(data)))
-//     .then(data => displayTeams(data))
   
 };
 
