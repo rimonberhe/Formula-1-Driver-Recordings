@@ -1,44 +1,37 @@
+# Formula 1 Driver Recordings 
+
+## Overview
+
 This project provides a simple web interface to retrieve Formula 1 team radio recordings for specific drivers during race sessions. Users can select a driver and a race meeting to view the available recordings.
 
-Getting Started
+### Getting Started
 
 To run the project locally, follow these steps:
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/rimonberhe/Formula-1-Driver-Recordings.git
-Open the index.html file in your web browser.
-Features
+1. Clone the repository: git clone https://github.com/rimonberhe/Formula-1-Driver-Recordings.git
+2. Open the index.html file in your web browser.
 
-Responsive design with background image.
-Dropdowns for selecting drivers and race meetings.
-Loading spinner while fetching data.
-Fetches team radio recordings based on user-selected driver and race meeting.
-Usage
+### Features
 
-Choose a driver from the dropdown list.
-Choose a race meeting from the second dropdown list.
-Click the "Search" button to load the team radio recordings.
-JavaScript (script.js)
++ Responsive design with background image.
++ Dropdowns for selecting drivers and race meetings.
++ Loading spinner while fetching data.
++ Fetches team radio recordings based on user-selected driver and race meeting.
 
-Functions
-meetingsDropdown
+### Usage
 
-Populates the race meetings dropdown with options.
-Triggered on the window's onload event.
-loadTeams
++ Choose a driver from the dropdown list.
++ Choose a race meeting from the second dropdown list.
++ Click the "Search" button to load the team radio recordings.
 
-Fetches team radio recordings based on user-selected driver and race meeting.
-Displays a loading spinner during the fetch operation.
-Calls the displayTeams function to render the recordings.
-displayTeams
 
-Displays driver and race meeting information along with team radio recordings.
-Handles the rendering of the main card and individual recordings.
-Dependencies
+
+### Dependencies
 
 Tailwind CSS: Used for styling the web interface.
-License
+
+
+
+### License
 
 This project is licensed under the MIT License.
