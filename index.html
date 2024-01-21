@@ -16,8 +16,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex justify-center bg-cover bg-center bg-fixed" style="background-image: url('F1.jpg');"    >
-
+<body class="flex grow justify-center">
 
     <main>
         <section  class="container flex justify-center items-start mt-20">
@@ -26,10 +25,6 @@
                     <div>
                         <select class="select select-bordered w-full max-w-xs relative mb-4" id="user-input"> 
                             <option disabled selected>--Please choose a Driver--</option>
-                            <option value=1>Max Verstappen</option> 
-                            <option value=44>Lewis Hamilton</option> 
-                            <option value=16>Charles Leclerc</option> 
-                            <option value=66>George Russell</option> 
                         </select>
                     </div>
                     <!-- <label class="meetinglabel" for="meetings">Select a Race:</label> -->
@@ -52,12 +47,12 @@
        
         <div class="divider"></div> 
         <section class="container">
-            <div id="teams-container" class="container flex justify-center">
+            <div id="teams-container" class="container flex justify-center pb-8">
 
             </div>  
 
             <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -71,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </section>
     </main>
