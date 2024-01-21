@@ -101,14 +101,14 @@ const displayTeams = teams => {
   const div = document.createElement('div');
   //div.classList.add('col');
   div.innerHTML = `
-                <div class="max-w-2xl max-h-fit bg-neutral-content opacity-80 rounded overflow-hidden shadow-lg">
+                <div class="w-screen md:max-w-2xl max-h-fit bg-neutral-content opacity-80 rounded overflow-hidden shadow-lg">
                   <img class="w-1/3 mx-auto" src="${myDriver.headshot_url}" alt="Placeholder Image">
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 text-center text-primary-content">${myDriver.full_name}</div>
                     <p class="text-gray-700 text-base text-center text-primary-content">
                         ${mySession.meeting_name}
                     </p>
-                    <div id="recordings" class="grid grid-rows-4 grid-flow-col gap-4">
+                    <div id="recordings" class="grid grid-flow-row auto-rows-max justify-items-center gap-4">
                     </div>
                   </div>
                 </div>

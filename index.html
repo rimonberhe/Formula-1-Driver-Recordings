@@ -16,35 +16,41 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex justify-center bg-cover bg-center" style="background-image: url('F1.jpg');"    >
+<body class="flex justify-center bg-cover bg-center bg-fixed" style="background-image: url('F1.jpg');"    >
 
 
     <main>
-        <section  class="container flex items-start mt-20">
-                <div id="search-container" class="flex justify-center space-x-4 relative top-1/4"> 
+        <section  class="container flex justify-center items-start mt-20">
+                <div id="search-container" class="flex flex-col justify-center relative top-1/4"> 
                     <!-- <label class="meetinglabel" for="user-input" >Choose a driver:</label>  -->
-                    <select class="select select-bordered w-full max-w-xs relative mb-4" id="user-input"> 
-                        <option disabled selected>--Please choose a Driver--</option>
-                        <option value=1>Max Verstappen</option> 
-                        <option value=44>Lewis Hamilton</option> 
-                        <option value=16>Charles Leclerc</option> 
-                        <option value=66>George Russell</option> 
-                    </select>
+                    <div>
+                        <select class="select select-bordered w-full max-w-xs relative mb-4" id="user-input"> 
+                            <option disabled selected>--Please choose a Driver--</option>
+                            <option value=1>Max Verstappen</option> 
+                            <option value=44>Lewis Hamilton</option> 
+                            <option value=16>Charles Leclerc</option> 
+                            <option value=66>George Russell</option> 
+                        </select>
+                    </div>
                     <!-- <label class="meetinglabel" for="meetings">Select a Race:</label> -->
-                    <select class="select select-bordered w-full max-w-xs relative mb-4" id="meetings">
-                        <option disabled selected>--Please choose a meeting--</option>
-                    </select>
-                    <button id="search-btn" onclick="loadTeams()"
-                        class="btn btn-accent">Search</button>
-                    <!-- Loading Spinner -->
-                    <button id ="spinner" class="btn hidden">
-                        <span class="loading loading-spinner"></span>
-                        Loading...
-                    </button>
+                    <div>
+                        <select class="select select-bordered w-full max-w-xs relative mb-4" id="meetings">
+                            <option disabled selected>--Please choose a meeting--</option>
+                        </select>
+                    </div>
+                    <div class="flex justify-center">
+                        <button id="search-btn" onclick="loadTeams()"
+                            class="btn btn-accent">Search</button>
+                        <!-- Loading Spinner -->
+                        <button id ="spinner" class="btn hidden">
+                            <span class="loading loading-spinner"></span>
+                            Loading...
+                        </button>
+                    </div>
                 </div>
         </section>
        
-
+        <div class="divider"></div> 
         <section class="container">
             <div id="teams-container" class="container flex justify-center">
 
